@@ -1,1 +1,1 @@
-*.ipynb  filter=jupyternb diff=jupyternb merge=jupyternb
+﻿*.md text eol=lf
