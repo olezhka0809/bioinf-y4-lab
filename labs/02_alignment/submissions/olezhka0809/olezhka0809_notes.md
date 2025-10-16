@@ -21,6 +21,7 @@ TTTC-CCC
 pair,hamming,p_distance,len_used
 NM_000546.6-NM_011640.3,1286,0.7221,1781
 NM_000546.6-NM_131327.2,1681,0.7528,2233
+
 NM_011640.3-NM_131327.2,1293,0.7260,1781
 
 ## results of running ex01_global_nw.py pe fisierul tp53_protein_multi.fasta (pe fisierul my_tp_dr_protein.fasta nu reuseste sa ruleze fisierul fiind foarte mare)

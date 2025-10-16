@@ -23,6 +23,7 @@ from Bio import SeqIO
 # ===================== Matrix initiation =========================================
 
 def init_score_matrix_local(m: int, n: int):
+
     # Cream o matrice (m+1) x (n+1) plină cu zerouri
     return [[0 for _ in range(n + 1)] for _ in range(m + 1)]
 
@@ -33,6 +34,7 @@ def score_cell_local(score, i: int, j: int, a: str, b: str, match: int, mismatch
     up   = score[i - 1][j] + gap
     left = score[i][j - 1] + gap
     return max(0, diag, up, left)
+
 
 
 

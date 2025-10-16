@@ -53,6 +53,10 @@ build/
 !data/sample/
 !data/sample/**
 data/sample/data_generation_notes.md
+<<<<<<< HEAD
 
 data/work/olezhka0809/lab01/my_tp53_dr_protein.fasta
 
+=======
+data/work/olezhka0809/lab01/my_tp53_dr_protein.fasta
+>>>>>>> faf072e (Lab 2: Create subbmissions folder and add specific files for user olezhka0809)

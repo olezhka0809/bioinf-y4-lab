@@ -23,6 +23,7 @@ from Bio import SeqIO
 # ===================== TODO: Scoring matrix init =========================================
 
 def init_score_matrix_global(m: int, n: int, gap: int):
+
     score = [[0 for _ in range(n + 1)] for _ in range(m + 1)]
 
     for i in range(1, m + 1):
@@ -43,6 +44,7 @@ def score_cell_global(score, i: int, j: int, a: str, b: str, match: int, mismatc
     left = score[i][j - 1] + gap
 
     return max(diag, up, left)
+
 
 
 
