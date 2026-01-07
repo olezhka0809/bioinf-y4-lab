@@ -1,5 +1,6 @@
 ## PR laborator
 
+
 **Săptămâna:** `1`  *(ex.: 1, 2, 3…)*  
 **Folder lab:** `labs/NN_topic`  *(ex.: labs/01_intro&databases)*  
 **GitHub handle:** `<handle>`  
